@@ -1,0 +1,11 @@
+.project
+galagosearch-tupleflow/.settings/org.eclipse.m2e.core.prefs
+galagosearch-tupleflow/.settings/
+galagosearch-tupleflow/.classpath
+galagosearch-tupleflow-typebuilder/.settings/
+galagosearch-tupleflow-typebuilder/.classpath
+galagosearch-core/.settings/
+.settings/
+galagosearch-core/.classpath
+galagosearch-core/src/main/java/org/galagosearch/core/types/
+galagosearch-tupleflow/src/main/java/org/galagosearch/tupleflow/types/

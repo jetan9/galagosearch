@@ -1192,6 +1192,11 @@ public class JobExecutor {
         handler.waitForFinalPage();
         server.removeHandler(handler);
     }
+    
+    public static boolean runLocally(Job job, ErrorStore store) throws IOException,
+            InterruptedException, ExecutionException, Exception {
+        return runLocally(job, store, false);
+    }
 
     public static boolean runLocally(Job job, ErrorStore store, boolean keepOutput) throws IOException,
             InterruptedException, ExecutionException, Exception {
